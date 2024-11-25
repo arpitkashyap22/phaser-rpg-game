@@ -16,7 +16,7 @@ export class GameScene extends Phaser.Scene {
 
   init() {
     // Initialize Socket.IO
-    this.socket = io("http://localhost:3000");
+    this.socket = io("https://phaser-rpg-game-production.up.railway.app/");
   }
 
   create() {
